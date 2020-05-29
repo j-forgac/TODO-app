@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<div class="row fixed-top">
+	<div class="col-sm-12" id="menu">
+		<div class="logo">
+			TODO
+		</div>
+	</div>
+</div>
+
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-3"></div>
+		<div class="paper col-6">
+			<div class="container top-options">
+				<button class="add">
+					Add task
+				</button>
+			</div>
+			<hr style="width: 95%">
+			<div class="container my-tasks">
+				<div class="row align-middle">
+					<div class="col-12 one-task">
+						<div class="row">
+							<div class=" col-8">
+								<div class="task-name">
+									Homework
+								</div>
+							</div>
+
+							<div class="col-2">
+								<div class="task-date ">
+									Date: 29.5.
+								</div>
+							</div>
+
+							<div class="col-2">
+								<div class="task-importance high">
+									HIGH
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row">
+					<div class="col-12 one-task">
+						<div class="row">
+							<div class=" col-8">
+								<div class="task-name">
+									Project 1
+								</div>
+							</div>
+
+							<div class="col-2">
+								<div class="task-date ">
+									Date: 4.6.
+								</div>
+							</div>
+
+							<div class="col-2">
+								<div class="task-importance low">
+									LOW
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-12 one-task">
+						<div class="row">
+							<div class=" col-8">
+								<div class="task-name">
+									Homework
+								</div>
+							</div>
+
+							<div class="col-2">
+								<div class="task-date ">
+									Date: 7.6.
+								</div>
+							</div>
+
+							<div class="col-2">
+								<div class="task-importance medium">
+									MEDIUM
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-12 one-task">
+						<div class="row">
+							<div class=" col-8">
+								<div class="task-name">
+									Homework
+								</div>
+							</div>
+
+							<div class="col-2">
+								<div class="task-date ">
+									Date: 11.6.
+								</div>
+							</div>
+
+							<div class="col-2">
+								<div class="task-importance high">
+									HIGH
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-12 one-task">
+						<div class="row">
+							<div class=" col-8">
+								<div class="task-name">
+									Project 2
+								</div>
+							</div>
+
+							<div class="col-2">
+								<div class="task-date ">
+									Date: 9.8.
+								</div>
+							</div>
+
+							<div class="col-2">
+								<div class="task-importance low">
+									LOW
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-12 one-task">
+						<div class="row">
+							<div class=" col-8">
+								<div class="task-name">
+									Project 3
+								</div>
+							</div>
+
+							<div class="col-2">
+								<div class="task-date ">
+									Date: 6.9.
+								</div>
+							</div>
+
+							<div class="col-2">
+								<div class="task-importance low">
+									LOW
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-12 one-task">
+						<div class="row">
+							<div class=" col-8">
+								<div class="task-name">
+									Project 4
+								</div>
+							</div>
+
+							<div class="col-2">
+								<div class="task-date ">
+									Date: 11.12.
+								</div>
+							</div>
+
+							<div class="col-2">
+								<div class="task-importance medium">
+									MEDIUM
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="footer">
+	<h6>TODO</h6>
+	<h6>Copyright @2020</h6>
+</div>
+
+
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+<script>
+	$(window).on('scroll', function (e) {
+
+		// add/remove class to navbar when scrolling to hide/show
+		let scroll = $(window).scrollTop();
+		if (scroll <= 150) {
+			document.getElementById("menu").style = "top: 0px;";
+		} else {
+			document.getElementById("menu").style = "top: -105px;";
+		}
+
+	});
+</script>
+</body>
+</html>

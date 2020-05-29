@@ -1,0 +1,120 @@
+#menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 100%;
+  height: 80px;
+  transition: top 0.3s;
+  box-shadow: #cbcbcb 10px 0 5px 0;
+}
+
+.logo {
+  font-size: 32px;
+  color: black;
+}
+
+body {
+  width: 100%;
+  background-color: #f1f1f1 !important;
+  font-family: "Roboto", sans-serif !important;
+}
+
+.paper {
+  background-color: #ffffff;
+  align-self: center;
+  margin-top: 200px;
+  border-radius: 5px;
+  box-shadow: #cbcbcb 0 0 5px 0;
+}
+
+.myCard {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer {
+  background-color: #ffffff;
+  color: #000000;
+  margin-top: 100px;
+  width: 100%;
+  height: 80px;
+}
+
+h6 {
+  text-align: center;
+  padding: 8px;
+}
+
+.modal-content {
+  padding: 0 50px 10px 50px;
+}
+
+.top-options {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.add {
+  font-size: 17px;
+  padding: 10px 30px 10px 30px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  background-color: #57b3f4;
+  box-shadow: #57b3f4 0 0 2px 0;
+  margin-left: 15px;
+}
+
+.my-tasks {
+  margin-bottom: 16px;
+}
+
+.one-task:hover {
+  box-shadow: #9e9e9e 0 0 3px 0;
+}
+
+.one-task {
+  height: 80px;
+  border-radius: 9px;
+  box-shadow: #cecece 0 0 2px 0;
+  margin: 7px 0 7px 0;
+}
+.one-task .row {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.task-name {
+  font-size: 23px;
+  margin-left: 5px;
+}
+
+.task-importance {
+  color: white;
+  border-radius: 30px;
+  width: 110px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+}
+
+.high {
+  background-color: #f4656a;
+}
+
+.medium {
+  background-color: #f4e558;
+}
+
+.low {
+  background-color: #89e262;
+}
+
+/*# sourceMappingURL=styles.css.map */
